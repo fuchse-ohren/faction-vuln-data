@@ -1,26 +1,26 @@
 {
-  "id": 74, 
-  "title": "Phishing vector", 
-  "severity": "low", 
+  "id": 74,
+  "title": "フィッシングベクトル",
+  "severity": "low",
   "description": {
     "$ref": "#/files/description/74"
-  }, 
+  },
   "fix": {
-    "effort": 30, 
+    "effort": 30,
     "guidance": {
       "$ref": "#/files/fix/35"
     }
-  }, 
+  },
   "cwe": [
     "451"
-  ], 
+  ],
   "tags": [
-    "web", 
+    "web",
     "phishing"
-  ], 
+  ],
   "references": [
     {
-      "url": "https://www.owasp.org/index.php/Phishing", 
+      "url": "https://www.owasp.org/index.php/Phishing",
       "title": "Phishing - OWASP"
     }
   ]

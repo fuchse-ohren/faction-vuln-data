@@ -1,34 +1,34 @@
 {
-  "id": 9, 
-  "title": "Forceful Browsing", 
-  "severity": "medium", 
+  "id": 9,
+  "title": "強制ブラウジング",
+  "severity": "medium",
   "description": {
     "$ref": "#/files/description/9"
-  }, 
+  },
   "cwe": [
     "538"
-  ], 
+  ],
   "owasp_top_10": {
     "2013": [
       5
     ]
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/55"
     }
-  }, 
+  },
   "tags": [
-    "web", 
-    "path", 
-    "directory", 
-    "common", 
+    "web",
+    "path",
+    "directory",
+    "common",
     "discovery"
-  ], 
+  ],
   "references": [
     {
-      "url": "https://www.owasp.org/index.php/Forced_browsing", 
+      "url": "https://www.owasp.org/index.php/Forced_browsing",
       "title": "OWASP - Forced browsing"
     }
   ]

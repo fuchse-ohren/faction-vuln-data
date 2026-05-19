@@ -1,24 +1,22 @@
 {
-  "id": 98, 
-  "title": "HTTP Request Smuggling", 
-  "severity": "High", 
+  "id": 98,
+  "title": "HTTP リクエストの密輸",
+  "severity": "High",
   "description": {
     "$ref": "#/files/description/81"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/61"
     }
-  }, 
+  },
   "cwe": [
     "CWE-444"
-  ], 
-  "owasp_top_10": {
-  }, 
+  ],
+  "owasp_top_10": {},
   "tags": [
-    "insecure design", 
+    "insecure design",
     "server misconfiguration"
-
   ]
 }
