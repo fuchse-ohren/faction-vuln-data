@@ -1,18 +1,17 @@
 {
-  "id": 0, 
-  "title": "Default", 
-  "severity": "high", 
+  "id": 0,
+  "title": "デフォルト",
+  "severity": "high",
   "description": {
     "$ref": "#/files/description/0"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/0"
     }
-  }, 
-  "cwe": [
-  ], 
+  },
+  "cwe": [],
   "tags": [
     "uncategorized"
   ]

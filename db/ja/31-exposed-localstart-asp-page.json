@@ -1,20 +1,20 @@
 {
-  "id": 31, 
-  "title": "Exposed localstart.asp page", 
-  "severity": "low", 
+  "id": 31,
+  "title": "localstart.asp ページの公開",
+  "severity": "low",
   "description": {
     "$ref": "#/files/description/31"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/38"
     }
-  }, 
+  },
   "tags": [
-    "web", 
-    "asp", 
-    "iis", 
+    "web",
+    "asp",
+    "iis",
     "server"
   ]
 }

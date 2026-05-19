@@ -1,27 +1,27 @@
 {
-  "id": 22, 
-  "title": "HttpOnly cookie", 
-  "severity": "informational", 
+  "id": 22,
+  "title": "HTTPのみのクッキー",
+  "severity": "informational",
   "description": {
     "$ref": "#/files/description/22"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/30"
     }
-  }, 
+  },
   "cwe": [
     "87"
-  ], 
+  ],
   "owasp_top_10": {
     "2013": [
       2
     ]
-  }, 
+  },
   "references": [
     {
-      "url": "https://www.owasp.org/index.php/HttpOnly", 
+      "url": "https://www.owasp.org/index.php/HttpOnly",
       "title": "HttpOnly - OWASP"
     }
   ]

@@ -1,20 +1,18 @@
 {
-  "id": 80, 
-  "title": "Generic Server Misconfiguration", 
-  "severity": "High", 
+  "id": 80,
+  "title": "一般的なサーバーの構成ミス",
+  "severity": "High",
   "description": {
     "$ref": "#/files/description/0"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/0"
     }
-  }, 
-  "cwe": [
-  ], 
-  "owasp_top_10": {
-  }, 
+  },
+  "cwe": [],
+  "owasp_top_10": {},
   "tags": [
     "server"
   ]

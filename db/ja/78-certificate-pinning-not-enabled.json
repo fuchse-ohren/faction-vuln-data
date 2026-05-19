@@ -1,26 +1,25 @@
 {
-  "id": 78, 
-  "title": "Certificate Pinning Not Enabled", 
-  "severity": "low", 
+  "id": 78,
+  "title": "証明書のピン留めが有効になっていません",
+  "severity": "low",
   "description": {
     "$ref": "#/files/description/78"
-  }, 
+  },
   "fix": {
-    "effort": 60, 
+    "effort": 60,
     "guidance": {
       "$ref": "#/files/fix/58"
     }
-  }, 
+  },
   "cwe": [
     "295"
-  ], 
-  "owasp_top_10": {
-  }, 
+  ],
+  "owasp_top_10": {},
   "tags": [
-    "certificate", 
+    "certificate",
     "authorization",
     "mobile"
-  ], 
+  ],
   "references": [
     {
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/Pinning_Cheat_Sheet.html",

@@ -1,27 +1,27 @@
 {
-  "id": 25, 
-  "title": "Insecure cookie", 
-  "severity": "informational", 
+  "id": 25,
+  "title": "安全でないクッキー",
+  "severity": "informational",
   "description": {
     "$ref": "#/files/description/25"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/26"
     }
-  }, 
+  },
   "cwe": [
     "614"
-  ], 
+  ],
   "owasp_top_10": {
     "2013": [
       2
     ]
-  }, 
+  },
   "references": [
     {
-      "url": "https://www.owasp.org/index.php/SecureFlag", 
+      "url": "https://www.owasp.org/index.php/SecureFlag",
       "title": "SecureFlag - OWASP"
     }
   ]

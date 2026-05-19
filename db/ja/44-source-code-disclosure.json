@@ -1,31 +1,31 @@
 {
-  "id": 44, 
-  "title": "Source code disclosure", 
-  "severity": "high", 
+  "id": 44,
+  "title": "ソースコードの公開",
+  "severity": "high",
   "description": {
     "$ref": "#/files/description/44"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/56"
     }
-  }, 
+  },
   "cwe": [
-    "200", 
+    "200",
     "548"
-  ], 
+  ],
   "owasp_top_10": {
     "2013": [
       6
     ]
-  }, 
+  },
   "tags": [
-    "web", 
-    "code", 
-    "source", 
-    "file", 
-    "inclusion", 
+    "web",
+    "code",
+    "source",
+    "file",
+    "inclusion",
     "disclosure"
   ]
 }

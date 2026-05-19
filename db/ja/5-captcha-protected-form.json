@@ -1,12 +1,12 @@
 {
-  "id": 5, 
-  "title": "CAPTCHA protected form", 
-  "severity": "informational", 
+  "id": 5,
+  "title": "CAPTCHAで保護されたフォーム",
+  "severity": "informational",
   "description": {
     "$ref": "#/files/description/5"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/37"
     }
