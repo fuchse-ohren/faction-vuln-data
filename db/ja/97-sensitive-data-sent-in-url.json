@@ -1,24 +1,22 @@
 {
-  "id": 97, 
-  "title": "Sensitive Data Sent In Query String", 
-  "severity": "High", 
+  "id": 97,
+  "title": "クエリ文字列で送信される機密データ",
+  "severity": "High",
   "description": {
     "$ref": "#/files/description/80"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/60"
     }
-  }, 
+  },
   "cwe": [
     "CWE-598"
-  ], 
-  "owasp_top_10": {
-  }, 
+  ],
+  "owasp_top_10": {},
   "tags": [
-    "data disclosure", 
+    "data disclosure",
     "privacy"
-
   ]
 }

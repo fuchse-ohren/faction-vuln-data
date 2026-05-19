@@ -1,28 +1,28 @@
 {
-  "id": 67, 
-  "title": "Self-signed TLS/SSL certificate", 
-  "severity": "medium", 
+  "id": 67,
+  "title": "自己署名TLS/SSL証明書",
+  "severity": "medium",
   "description": {
     "$ref": "#/files/description/67"
-  }, 
+  },
   "fix": {
-    "effort": 60, 
+    "effort": 60,
     "guidance": {
       "$ref": "#/files/fix/12"
     }
-  }, 
+  },
   "cwe": [
     "296"
-  ], 
+  ],
   "tags": [
-    "web", 
-    "unencrypted", 
-    "tls", 
+    "web",
+    "unencrypted",
+    "tls",
     "ssl"
-  ], 
+  ],
   "references": [
     {
-      "url": "https://en.wikipedia.org/wiki/Self-signed_certificate", 
+      "url": "https://en.wikipedia.org/wiki/Self-signed_certificate",
       "title": "Wikipedia article on self-signed certificates"
     }
   ]

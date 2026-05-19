@@ -1,12 +1,12 @@
 {
-  "id": 16, 
-  "title": "E-mail address disclosure", 
-  "severity": "informational", 
+  "id": 16,
+  "title": "メールアドレスの開示",
+  "severity": "informational",
   "description": {
     "$ref": "#/files/description/16"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/3"
     }

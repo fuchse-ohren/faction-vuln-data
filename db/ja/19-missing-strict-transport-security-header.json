@@ -1,23 +1,23 @@
 {
-  "id": 19, 
-  "title": "Missing 'Strict-Transport-Security' header", 
-  "severity": "medium", 
+  "id": 19,
+  "title": "「Strict-Transport-Security」ヘッダーがありません",
+  "severity": "medium",
   "description": {
     "$ref": "#/files/description/19"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/48"
     }
-  }, 
+  },
   "references": [
     {
-      "url": "http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security", 
+      "url": "http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security",
       "title": "Wikipedia - HSTS"
-    }, 
+    },
     {
-      "url": "https://www.owasp.org/index.php/HTTP_Strict_Transport_Security", 
+      "url": "https://www.owasp.org/index.php/HTTP_Strict_Transport_Security",
       "title": "OWASP - HSTS"
     }
   ]

@@ -1,23 +1,21 @@
 {
-  "id": 96, 
-  "title": "Generic Unvalidated Input", 
-  "severity": "High", 
+  "id": 96,
+  "title": "一般的な未検証の入力",
+  "severity": "High",
   "description": {
     "$ref": "#/files/description/0"
-  }, 
+  },
   "fix": {
-    "effort": 50, 
+    "effort": 50,
     "guidance": {
       "$ref": "#/files/fix/0"
     }
-  }, 
-  "cwe": [
-  ], 
-  "owasp_top_10": {
-  }, 
+  },
+  "cwe": [],
+  "owasp_top_10": {},
   "tags": [
-    "injection attacks", 
-    "xss", 
+    "injection attacks",
+    "xss",
     "sqli"
   ]
 }
