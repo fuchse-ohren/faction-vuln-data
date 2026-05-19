@@ -1,0 +1,33 @@
+{
+  "id": 66, 
+  "title": "Insecure SSL/TLS version enabled", 
+  "severity": "medium", 
+  "description": {
+    "$ref": "#/files/description/66"
+  }, 
+  "fix": {
+    "effort": 10, 
+    "guidance": {
+      "$ref": "#/files/fix/34"
+    }
+  }, 
+  "tags": [
+    "web", 
+    "ssl",
+    "tls"
+  ], 
+  "cwe": [
+    "326"
+  ], 
+  "owasp_top_10": {
+    "2010": [
+      9
+    ]
+  }, 
+  "references": [
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html", 
+      "title": "Transport Layer Protection Cheat Sheet"
+    }
+  ]
+}
